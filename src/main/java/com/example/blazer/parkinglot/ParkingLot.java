@@ -86,4 +86,20 @@ public class ParkingLot {
                 Integer.parseInt(ticket[2]) - 1
         );
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public int getNumOfFloors() {
+        return numOfFloors;
+    }
+
+    public int getNumOfSlotsPerFloor() {
+        return numOfSlotsPerFloor;
+    }
+
+    public List<List<Slot>> getFloors() {
+        return floors;
+    }
 }
